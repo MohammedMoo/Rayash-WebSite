@@ -20,6 +20,9 @@ h1{
     background-color: #2a2929;
     width: 50%;
     border-radius: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 .container.slide-me{
     height: 500px;
@@ -41,9 +44,12 @@ h1{
     padding: 10px;
 }
 .show{
-    width: 500px;
+    width: auto;
     border-radius: 10px;
     height: 500px;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 .font-pr{
     font-style: italic;
